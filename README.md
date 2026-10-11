@@ -1,6 +1,6 @@
 # Reel Counter(!!! Under construction)
 
-For releases -> <a href="https://github.com/Arun-K-kumar/reels\_tracker/releases/tag/v1.0.0">Click Here</a>
+For releases -> <a href="https://github.com/Arun-K-kumar/reels_tracker/releases/tag/v1.0.0">Click Here</a>
 
 Counts Instagram Reels you watch (via an Android AccessibilityService) and shows analytics on the home screen.
 Everything is stored locally in SQLite. Nothing is uploaded.
