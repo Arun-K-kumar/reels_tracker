@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Reel Counter</string>
+    <string name="service_description">Counts how many Instagram Reels you watch. It only observes the Instagram app, and all data stays on this device.</string>
+</resources>

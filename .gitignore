@@ -1,0 +1,22 @@
+# Gradle cache and build outputs
+.gradle/
+**/build/
+
+# Android Studio
+.idea/
+*.iml
+
+# Local Android SDK configuration
+local.properties
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Environment files and secrets
+.env
+.env.*
+
+# Signing keys
+*.jks
+*.keystore
