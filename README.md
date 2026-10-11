@@ -1,6 +1,6 @@
-# Reel Counter
+# Reel Counter(!!! Under construction)
 
-For releases -> <a href="https://github.com/Arun-K-kumar/reels_tracker/releases/tag/v1.0.0">Click Here</a>
+For releases -> <a href="https://github.com/Arun-K-kumar/reels\_tracker/releases/tag/v1.0.0">Click Here</a>
 
 Counts Instagram Reels you watch (via an Android AccessibilityService) and shows analytics on the home screen.
 Everything is stored locally in SQLite. Nothing is uploaded.
@@ -21,7 +21,7 @@ A reel counts once it has been on screen for 1.5 s (fast flicks don't count). Re
 
 Instagram's internal view IDs change between versions. In ReelAccessibilityService.kt:
 
-* set `DEBUG\\\\\\\_DUMP = true`, install, scroll a few reels
+* set `DEBUG\\\\\\\\\\\\\\\_DUMP = true`, install, scroll a few reels
 * run `adb logcat -s ReelCounter` and look for the IDs that hold the username/caption
 * update AUTHOR\_IDS / CAPTION\_IDS / REEL\_VIEW\_IDS
 Without any matching IDs it falls back to counting one reel per settled swipe in the Reels tab.
